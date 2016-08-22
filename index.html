@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Battleships</title>
+   <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+   <script src="assets/javascript/Ship.js" charset="utf-8"></script>
+   <script src="assets/javascript/Grid.js" charset="utf-8"></script>
+   <script src="assets/javascript/Player.js" charset="utf-8"></script>
+   <script src="assets/javascript/game.js" charset="utf-8"></script>
+</head>
+<body>
+   <div id="wrapper">
+      <div class="msg" id="game-over">
+         <h1>GAME-OVER</h1>
+         <button type="button" name="btn-again" class="btn-again">Play again</button>
+      </div>
+      <div class="msg" id="win">
+         <h1>YOU WIN !!!</h1>
+         <button type="button" name="btn-again" class="btn-again">Play again</button>
+      </div>
+      <div id="score">
+         <p id="bullets">Bullets: <span>20</span></p>
+         <p id="hits">Hits: <span>0</span></p>
+      </div>
+      <div id="grid">
+
+      </div>
+   </div>
+</body>
+</html>
